@@ -1,14 +1,56 @@
-# e-commerce-back-end```md
+# e-commerce-back-end
 
-GIVEN a functional Express.js API
-WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
-WHEN I open API GET routes in Insomnia Core for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-THEN I am able to successfully create, update, and delete data in my database
-```
+[![license badge](https://img.shields.io/badge/License-ISC-orange.svg)](https://choosealicense.com/licenses/isc/)
+
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Links](#links)
+
+
+------------------------------------
+
+## Description
+
+The goal of this project is to build the back end for an e-commerce site.  We are given starter code and will configure a working Express.js API to use Sequelize to interact with a MySQL database.
+
+The database is loaded with information from our seed file and the app is started all within the terminal.
+
+![eCommercegif](./assets/eCommerceVSCode.gif)
+
+We are able to access and manipulate data through postman
+
+![postmangif](./assets/productsDemo.gif)
+
+
+------------------------------------
+
+## Installation
+
+To install this application, you will need to enter the following line of code into a Node.js session.  
+    
+    npm install
+
+
+------------------------------------
+
+## Usage
+
+To load the database, run the following code:
+
+    npm run seed
+
+After loading the database, run the following code to start the app:
+
+    npm start
+
+
+------------------------------------
+
+
+## Links
+
+Please click the link below to see a video of the app in action
+
+https://www.youtube.com/watch?v=dOl5fKMTSJg
+
