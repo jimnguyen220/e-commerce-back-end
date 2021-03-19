@@ -52,5 +52,5 @@ After loading the database, run the following code to start the app:
 
 Please click the link below to see a video of the app in action
 
-https://www.youtube.com/watch?v=dOl5fKMTSJg
+https://www.youtube.com/watch?v=rNX3fuGGA_E
 
